@@ -1,0 +1,21 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    text-align: center;
+}
+#productos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.producto {
+    border: 1px solid #ee0404;
+    padding: 10px;
+    width: 160px;
+}
+button {
+    background: rgb(38, 0, 128);
+    color: rgb(23, 187, 236);
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
